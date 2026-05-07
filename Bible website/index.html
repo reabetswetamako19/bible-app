@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Bible Verse</title>
+    <link href="https://googleapis.com" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="toggle-wrapper">
+        <button id="theme-toggle" aria-label="Toggle Theme">
+            <span class="icon">🌙</span>
+        </button>
+    </div>
+
+ <div class="container">
+    <div class="top-bar">
+        <div id="current-date" class="date-display"></div>
+        <h1>Daily Bible Verse</h1>
+    </div>
+
+    <!-- PLACE THE SEARCH BOX HERE 
+    <div class="search-container">
+        <input type="text" id="verse-search" placeholder="Search for a book (e.g. Psalm)..." autocomplete="off">
+        <div id="search-results" class="results-dropdown"></div>
+    </div> -->
+
+    <div class="card">
+        <p id="verse-text" class="fade">Loading today's blessing...</p>
+        <h3 id="verse-reference"></h3>
+    </div>
+    
+
+
+        <button id="new-verse-btn">Get Random Verse</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
